@@ -4,15 +4,15 @@ const title=poster.querySelector('.rules-top h2'),grid=poster.querySelector('.ru
 const tt={title:title.textContent,grid:grid.innerHTML,foot:foot.innerHTML};
 const sports={
 badminton:{title:'BADMINTON',foot:'Le volant sur la ligne est bon. Le service est diagonal.',parts:[
-['LE SERVICE','Servir en diagonale dans le carré opposé.','Score pair : départ à droite ; score impair : à gauche.','Frapper le volant sous 1,15 m selon la règle officielle.'],
+['LE SERVICE','Servir en diagonale dans le carré opposé.','Au service, si mon score est pair (0, 2, 4…), je sers depuis le carré de droite ; s’il est impair (1, 3, 5…), depuis le carré de gauche.','Frapper le volant sous 1,15 m selon la règle officielle.'],
 ['FILET ET LIGNES','Un volant sur la ligne est bon.','Un volant qui touche le filet et passe correctement reste valable, y compris au service.','Un seul service par échange.'],
 ['FAUTES','Volant dehors, dans le filet ou tombé de son côté.','Toucher le filet pendant le jeu.','Frapper deux fois ou porter le volant.'],
 ['SIMPLE ET DOUBLE','En simple, les couloirs latéraux sont exclus.','En double, les couloirs latéraux sont inclus.','Au service en double, la limite du fond est la ligne intérieure.'],
 ['SCORE','Chaque échange gagné vaut un point.','Set de 21 points, avec deux points d’écart.','À 29 partout, le prochain point gagne.'],
 ['FAIR-PLAY','Annoncer le score avant de servir.','Respecter adversaires et arbitre.','Se saluer après la rencontre.']]},
-pickleball:{title:'PICKLEBALL',foot:'Deux rebonds obligatoires au début ; pas de volée dans la kitchen.',parts:[
+pickleball:{title:'PICKLEBALL',foot:'Après le service, chaque camp doit laisser rebondir la balle une fois avant de pouvoir jouer de volée. Pas de volée dans la kitchen.',parts:[
 ['LE SERVICE','Servir derrière la ligne de fond, en diagonale.','La balle doit dépasser la zone de non-volée (« kitchen »).','Service frappé de bas en haut sous la taille ou service après rebond ; un seul essai.'],
-['DEUX REBONDS','Le receveur laisse rebondir le service.','Le serveur laisse ensuite rebondir le retour.','Après ces deux rebonds, la volée est autorisée hors de la kitchen.'],
+['DEUX REBONDS','1er rebond : le receveur doit laisser rebondir le service avant de renvoyer.','2e rebond : le serveur (ou son partenaire) doit laisser rebondir le retour avant de frapper.','Ensuite, les deux camps peuvent frapper après un rebond ou directement de volée, sauf dans la kitchen.'],
 ['LA KITCHEN','Pas de volée en touchant la zone ou sa ligne.','On peut y entrer pour jouer après le rebond.','L’élan après une volée ne doit pas entraîner le joueur dans la zone.'],
 ['FAUTES','Balle dehors ou deux rebonds avant le renvoi.','Service dans la kitchen ou sur sa ligne.','Toucher le filet ou jouer une volée depuis la kitchen.'],
 ['SCORE','En décompte classique, seul le camp au service marque.','On joue généralement en 11 points, avec deux points d’écart.','En double, chaque partenaire sert à son tour, sauf au tout premier service.'],
