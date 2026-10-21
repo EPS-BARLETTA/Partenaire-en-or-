@@ -4,7 +4,7 @@ const title=poster.querySelector('.rules-top h2'),grid=poster.querySelector('.ru
 const tt={title:title.textContent,grid:grid.innerHTML,foot:foot.innerHTML};
 const sports={
 badminton:{title:'BADMINTON',foot:'Le volant sur la ligne est bon. Le service est diagonal.',parts:[
-['LE SERVICE','Servir en diagonale dans le carré opposé.','Au service, si mon score est pair (0, 2, 4…), je sers depuis le carré de droite ; s’il est impair (1, 3, 5…), depuis le carré de gauche.','Frapper le volant sous 1,15 m selon la règle officielle.'],
+['LE SERVICE','Servir en diagonale dans le carré opposé.','Au service, si mon score est pair (0, 2, 4…), je sers depuis le carré de droite ; s’il est impair (1, 3, 5…), depuis le carré de gauche.','Au service, frappe le volant par-dessous, avec un mouvement continu vers l’avant. En compétition officielle, le volant doit être frappé sous 1,15 m.'],
 ['FILET ET LIGNES','Un volant sur la ligne est bon.','Un volant qui touche le filet et passe correctement reste valable, y compris au service.','Un seul service par échange.'],
 ['FAUTES','Volant dehors, dans le filet ou tombé de son côté.','Toucher le filet pendant le jeu.','Frapper deux fois ou porter le volant.'],
 ['SIMPLE ET DOUBLE','En simple, les couloirs latéraux sont exclus.','En double, les couloirs latéraux sont inclus.','Au service en double, la limite du fond est la ligne intérieure.'],
