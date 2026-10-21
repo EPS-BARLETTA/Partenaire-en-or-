@@ -1,0 +1,1 @@
+window.epsRules={badminton:{title:'BADMINTON',panels:['Service diagonal','Lignes bonnes','21 points']},pickleball:{title:'PICKLEBALL',panels:['Service diagonal','Deux rebonds','Zone de non-volée']}};
